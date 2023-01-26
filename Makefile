@@ -8,8 +8,9 @@ SRCS2=aes_test_x86.cpp
 OBJS2=$(SRCS2:.cpp=.o)
 LIBS2=
 
-CXXFLAGS=-std=c++20 -Wall -O2 -MD -maes -mssse3
+CXXFLAGS=-std=c++20 -Wall -O2 -MD
 CPPFLAGS=-I./bytes-literals
+TARGET_ARCH=-maes -mssse3
 
 DEPS=$(SRCS1:.cpp=.d) $(SRCS2:.cpp=.d)
 
