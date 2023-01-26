@@ -1,0 +1,3 @@
+[submodule "bytes-literals"]
+	path = bytes-literals
+	url = https://github.com/funanz/bytes-literals.git

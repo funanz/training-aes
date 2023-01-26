@@ -3,7 +3,7 @@
 // https://opensource.org/licenses/MIT
 #include <cassert>
 #include "aes_x86.hpp"
-#include "bytes_literals.hpp"
+#include "bytes-literals/bytes_literals.hpp"
 
 using namespace cheap_aes::x86;
 using namespace bytes_literals;
