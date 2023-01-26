@@ -1,0 +1,4 @@
+*.o
+*.d
+aes-test
+aes-test-x86
