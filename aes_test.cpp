@@ -1,8 +1,8 @@
 // The MIT License
 // Copyright 2023 funanz <granz.fisherman@gmail.com>
 // https://opensource.org/licenses/MIT
+#include <bytes_literals.hpp>
 #include "aes.hpp"
-#include "bytes-literals/bytes_literals.hpp"
 
 using namespace cheap_aes;
 using namespace bytes_literals;

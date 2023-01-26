@@ -9,6 +9,7 @@ OBJS2=$(SRCS2:.cpp=.o)
 LIBS2=
 
 CXXFLAGS=-std=c++20 -Wall -O2 -MD -maes -mssse3
+CPPFLAGS=-I./bytes-literals
 
 DEPS=$(SRCS1:.cpp=.d) $(SRCS2:.cpp=.d)
 
