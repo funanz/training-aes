@@ -8,7 +8,7 @@
 using namespace cheap_aes::x86;
 using namespace bytes_literals;
 
-#define runtime_assert(expr) { if (!(expr)) throw std::logic_error(#expr); }
+#define runtime_assert(expr) [](bool ok){ if (!ok) throw std::logic_error(#expr); }(expr)
 
 void test_aes128_x86()
 {
